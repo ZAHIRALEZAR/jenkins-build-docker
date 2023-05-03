@@ -1,0 +1,57 @@
+# Ce fichier viminfo a été généré par Vim 8.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+|2,0,1682609027,,"wq"
+:q
+|2,0,1682608975,,"q"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+
+# Marques dans le fichier :
+'0  3  40  ~/jenkins-helloworld/Main.java
+|4,48,3,40,1682609027,"~/jenkins-helloworld/Main.java"
+'1  1  0  ~/jenkins-helloworld/Main.class
+|4,49,1,0,1682608975,"~/jenkins-helloworld/Main.class"
+
+# Liste de sauts (le plus récent en premier) :
+-'  3  40  ~/jenkins-helloworld/Main.java
+|4,39,3,40,1682609027,"~/jenkins-helloworld/Main.java"
+-'  1  0  ~/jenkins-helloworld/Main.java
+|4,39,1,0,1682608994,"~/jenkins-helloworld/Main.java"
+-'  1  0  ~/jenkins-helloworld/Main.class
+|4,39,1,0,1682608975,"~/jenkins-helloworld/Main.class"
+-'  1  0  ~/jenkins-helloworld/Main.class
+|4,39,1,0,1682608975,"~/jenkins-helloworld/Main.class"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/jenkins-helloworld/Main.java
+	*	1682609026	0
+	"	3	40
+	^	3	41
+	.	3	40
+	+	5	1
+	+	3	40
+
+> ~/jenkins-helloworld/Main.class
+	*	1682608973	0
+	"	1	0
