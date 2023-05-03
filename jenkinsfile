@@ -1,11 +1,23 @@
-node {
+node{
+  def app
+
     stage('Clone') {
-        git 'https://github.com/ZAHIRALEZAR/jenkins-helloworld-1.git'
+        checkout scm
     }
-    stage('Build') {
-           sh 'javac Main.java' 
+
+    stage('Build image') {
+        app = docker.build("zahira/nginx")
     }
-     stage('Run') {
-          sh 'java Main'
+
+    stage('Run image') {
+        docker.image('zahira/nginx').withRun('-p 82:82') { c ->
+
+        sh 'docker ps'
+
+        sh 'curl localhost'
+
     }
-} 
+
+    }
+    
+}
