@@ -328,3 +328,4 @@ X Protocol Version 11, Revision 0
 [   130.864] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
 [   130.864] (II) No input driver specified, ignoring this device.
 [   130.864] (II) This device may have been added with another device file.
+[  1776.837] (II) event2  - VirtualPS/2 VMware VMMouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.10.4/button_debouncing.html for details
